@@ -1,3 +1,17 @@
+
+
+.main-wrap{
+
+	min-height: 100%;
+	margin-bottom: -64px;
+}
+
+.main-wrap:after{
+	content: "";
+	display: block;
+	height: 64px;
+}
+
 header{
 	
 	font-size: 30px;
@@ -32,13 +46,19 @@ button{
 
 }
 
+.back{
 
+	background-color: white;
+	max-height: 100%;
+	max-width: 100%;
+}
 
 .background{
 
 	background-image: url("../images/background.jpg");
 	height: 670px;
 	width: 100%;
+
 	border-top: 2px;
     border-top-color: #666666;
     border-top-style: solid;
@@ -193,18 +213,7 @@ button{
     padding: 4px 7px;
     text-align: center;
 }
-/*
-.main-wrap{
 
-	min-height: 100%;
-	margin-bottom: -64px;
-}
-
-.main-wrap:after{
-	content: "";
-	display: block;
-	height: 64px;
-}*/
 
 
 
