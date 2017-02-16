@@ -109,9 +109,11 @@ button{
 		top:100px;		
 		left: 130px;
 		background-color: white;
-		max-height: 60%;
+		height: 70%;
 		width: 60%;
 		overflow: hidden;
+
+
 				
 	}
 
@@ -132,6 +134,7 @@ button{
 	h3{
 
 		font-size: 20px;
+		font-weight: bold;
 		text-align: left;
 		color:#4aaaa5;
 		padding:20px 5px;
@@ -146,6 +149,7 @@ button{
 	h4{
 		color: #777777;
 		font-family: 'arial', helvetica, sans-serif;
+		padding-top: 10px;
 	}
 
 	h1{
@@ -193,18 +197,7 @@ button{
     padding: 4px 7px;
     text-align: center;
 }
-/*
-.main-wrap{
 
-	min-height: 100%;
-	margin-bottom: -64px;
-}
-
-.main-wrap:after{
-	content: "";
-	display: block;
-	height: 64px;
-}*/
 
 
 
